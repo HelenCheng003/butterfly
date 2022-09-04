@@ -1,5 +1,5 @@
 # butterfly
-A detector using yolov7 model
+A detector using YOLOv7 model
 ## Dependencies
 You can install all the dependencies by running the commands below
 
