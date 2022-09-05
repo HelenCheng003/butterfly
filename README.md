@@ -52,3 +52,4 @@ python custom_detect.py --weights best.pt --conf 0.2 --source {path/to/your/butt
 
 **There will return a video saved in the path `yolov7/runs/detect/exp/video.mp4`**
 
+The counts will be printed and shown in the video.
