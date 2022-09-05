@@ -37,17 +37,17 @@ Windows
 **Run the following:**
 For Colab
 ```bash
-!python custom_detect.py --weights best.pt --conf 0.5 --source {path/to/your/butterfly/video.mp4}
+!python custom_detect.py --weights best.pt --conf 0.2 --source {path/to/your/butterfly/video.mp4}
 ```
 
 For Window
 ```bash
-python custom_detect.py --weights best.pt --conf 0.5 --source https://www.youtube.com/watch?v=6hyLdfYIcxI&ab_channel=WildlifeKingdom
+python custom_detect.py --weights best.pt --conf 0.2 --source https://www.youtube.com/watch?v=6hyLdfYIcxI&ab_channel=WildlifeKingdom
 ```
 or 
 
 ```bash
-python custom_detect.py --weights best.pt --conf 0.5 --source {path/to/your/butterfly/video.mp4}
+python custom_detect.py --weights best.pt --conf 0.2 --source {path/to/your/butterfly/video.mp4}
 ```
 
 **There will return a video saved in the path `yolov7/runs/detect/exp/video.mp4`**
